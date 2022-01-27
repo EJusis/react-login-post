@@ -16,8 +16,6 @@ function App() {
     const [getNewUser, setNewUser] = useState([])
     const [getCurrentUser,setCurrentUser] = useState();
     const [getPost, setPost] = useState([])
-    console.log(getNewUser)
-    console.log(getCurrentUser)
 
 
 

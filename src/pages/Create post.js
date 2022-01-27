@@ -23,7 +23,8 @@ const CreatePost = () => {
             const newObj = {
                 title: title.current.value,
                 description: description.current.value,
-                author: context.getCurrentUser.name
+                author: context.getCurrentUser.name,
+                likes: []
             }
             context.setPost([...context.getPost, newObj])
             nav('/main')

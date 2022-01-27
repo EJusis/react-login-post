@@ -86,3 +86,23 @@ button {
 .postWrap p {
   width: 30ch;
 }
+
+.likeStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.likeStyle p {
+  width: 10ch;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  border: 1px solid red;
+}
+
+.clickedBtn {
+  background-color: #212d00;
+}
