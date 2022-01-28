@@ -14,8 +14,9 @@ function App() {
     const [getView, setView] = useState('')
     const [getView2, setView2] = useState('')
     const [getNewUser, setNewUser] = useState([])
-    const [getCurrentUser,setCurrentUser] = useState();
+    const [getCurrentUser,setCurrentUser] = useState()
     const [getPost, setPost] = useState([])
+    const [getComment, setComment] = useState([])
 
 
 
@@ -23,7 +24,7 @@ function App() {
     <div className="App">
 
 
-        <mainContext.Provider value={{getView, setView, getNewUser, setNewUser, getCurrentUser, setCurrentUser ,getPost, setPost, getView2, setView2}}>
+        <mainContext.Provider value={{getView, setView, getNewUser, setNewUser, getCurrentUser, setCurrentUser ,getPost, setPost, getView2, setView2, getComment, setComment}}>
             <BrowserRouter>
             <Navbar/>
 

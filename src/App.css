@@ -42,7 +42,7 @@ a {
 .registerPageWrap {
   height: 92vh;
   background-color: #84a24f;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .navOptionsWrap {
@@ -73,18 +73,24 @@ button {
 
 .postWrap {
   height: 400px;
-  width: 300px;
+  width: auto;
   border: 3px solid black;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  text-align: center;
   margin: 0 20px;
+  text-align: center;
 }
 
 .postWrap p {
   width: 30ch;
+  margin: 5px 0;
+}
+
+.postWrap h1 {
+  width: 100%;
+  margin: 5px 0;
 }
 
 .likeStyle {
@@ -97,12 +103,59 @@ button {
   width: 10ch;
 }
 
-.box {
-  height: 30px;
-  width: 30px;
-  border: 1px solid red;
-}
-
 .clickedBtn {
   background-color: #212d00;
+}
+
+.commentStyle {
+  height: 400px;
+  width: 90%;
+  border: 1px solid red;
+  overflow-y: auto;
+}
+
+.commentStyle button {
+  padding: 10px;
+  background-color: blue;
+}
+
+.commentButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.commentCreate {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.commentCreate input {
+  margin: 0;
+}
+
+.commentSection {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.commentInside {
+  border: 1px solid red;
+  border-radius: 10px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  background-color: #44522b;
+  color: white;
+
 }
